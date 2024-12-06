@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/Bg.png);
+    color: #333;
+}
+
+.container {
+    display: flex;
+}
+
+.categories {
+    background-color: #00378e;
+    color: #fff;
+    padding: 20px;
+    width: 20%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.categories h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    margin-bottom: 5px;
+    color: white;
+    padding-bottom: 0px;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.categories ul {
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 36px;
+}
+
+.categories ul li {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+main {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00378e;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.book {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.book img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h3 {
+    font-size: 18px;
+    color: #001f57;
+    margin: 0;
+}
+
+.info p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #555;
+}
+
+button {
+    background-color: #00378e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #001f57;
+}
+
+a:link  {text-decoration:none;}
+    a:visited {text-decoration:none;}
+    a:hover {color: #006EE1}

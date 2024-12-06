@@ -1,0 +1,182 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6ec;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(../imagens/Bg.png);
+    color: #006eee;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color:#006ee1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.menu a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.icons span {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.cart {
+    flex: 2;
+}
+
+.cart h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #0d47a1;
+}
+
+.items .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: white;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.items img {
+    width: 80px;
+    height: 110px;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.item-details h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.item-details p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+.item-actions {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-actions select,
+.item-actions button {
+    margin-top: 0.5rem;
+}
+
+.summary {
+    flex: 1;
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.summary h2 {
+    font-size: 1.25rem;
+    color: #0d47a1;
+    margin-bottom: 1rem;
+}
+
+.summary .total-price {
+    font-size: 1.5rem;
+    color: #0d47a1;
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0;
+}
+
+.checkout {
+    display: block;
+    width: 100%;
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.payment {
+    display: flex ;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.payment img {
+    width: 100px;
+    height: 70px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #00257e;
+    color: white;
+}

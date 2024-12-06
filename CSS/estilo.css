@@ -1,0 +1,29 @@
+body{
+    background-image: url(../imagens/Bg.png);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+}
+li a{
+    display: inline-block;
+    color:#006ee1;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+h1 {
+    display: inline;
+    font-size: 100px;
+    font-weight: bol;
+    unicode-bidi: isolate;
+    color: #006ee1;
+}

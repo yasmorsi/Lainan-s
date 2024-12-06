@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil | Lainan's & Co.</title>
+    <link rel="stylesheet" href="../CSS/perfil2.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <img src="../imagens/lai.png" alt="Logo Lainan">
+            <p>Lainan's & Co - Since 2024</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="CategoriasR.html">Categorias</a></li>
+                <li><a href="Lançamentos.html">Lançamentos</a></li>
+                <li><a href="Liquidação.html">Liquidação</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="perfil.html">👤</a>
+            <a href="Fav.html">💙</a>
+            <a href="Carrinho.html">🛒</a>
+        </div>
+    </header>
+    <main class="perfil">
+        <section class="dados-pessoais">
+            <h2>Bem-vindo(a), <span>*SEU NOME*</span></h2>
+            <img src="../imagens/Perfil.png" height="205px">
+            <form action="#" method="post">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" value="*SEU TELEFONE*">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="*SEU EMAIL*">
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" value="*SEU ENDEREÇO*">
+
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino" selected>Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <button type="submit">Alterar Dados</button>
+            </form>
+        </section>
+        <section class="area-usuario">
+            <div class="opcoes">
+                <form action="#" method="post">
+                <div>
+                    <h3>Cupons</h3>
+                        <input type="text" id="cupom" name="cupom" value="*SEU CUPOM">
+                </div>
+                <div>
+                    <h3>Cartão Presente</h3>
+                        <input type="text" id="cartão" name="cartão" value="*SEU CARTÃO-PRESENTE*">
+                </form>
+                </div>
+            </div>
+            <h3>Meus Pedidos</h3>
+            <div class="status-pedidos">
+                <div>Não Pago</div>
+                <div>Processando</div>
+                <div>Enviado</div>
+            </div>
+            <form>
+                <button type="submit">Avaliar</button>
+                <button type="submit">Devolução</button>
+            </form>
+        </section>
+        <section class="desejos">
+            <center>
+            <div>
+                <h3>Lista de Desejos</h3>
+                <div class="lista-desejos">
+                    <img src="../imagens/livro1.png" alt="Livro 1">
+                    <img src="../imagens/livro2.png" alt="Livro 2">
+                    <img src="../imagens/livro3.png" alt="Livro 3">
+                </div>
+            </div>
+            <br>
+            <div>
+                <h3>Vistos Recentemente</h3>
+                <div class="vistos-recentemente">
+                    <img src="../imagens/recente1.png" alt="Visto 1">
+                    <img src="../imagens/recente2.png" alt="Visto 2">
+                    <img src="../imagens/recente3.png" alt="Visto 3">
+                </div>
+            </div>
+            </center>
+        </section>
+    </main>
+<br><br>
+    <footer class="footer">
+        <p>COPYRIGHT © Lainan's. Todos os Direitos Reservados
+        </p>
+    </footer>
+    <hr size="2" width="100%" color="#00257e">
+</body>
+</html>

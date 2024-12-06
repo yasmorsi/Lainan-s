@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/Bg.png);
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(../imagens/Bg.png);
+    color: #006eee;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color:#006ee1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #006ee1;
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book {
+    flex: 0 0 33.3333%;
+    text-align: center;
+    padding: 10px;
+}
+
+.book img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 500px;
+}
+
+.book h3 {
+    color: #006ee1;
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.favorite {
+    margin-top: 5px;
+}
+
+.heart {
+    font-size: 50px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.heart.favorited {
+    color: #006ee1
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #002F6C;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.nav-btn:hover {
+    background-color: #004A99;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+

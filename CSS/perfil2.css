@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/Bg.png);
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(../imagens/Bg.png);
+    color: #006eee;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color:#006ee1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 90%;
+}
+.dados-pessoais, .area-usuario, .desejos {
+    background-color: #00257e;
+    padding: 20px;
+    border: 1px solid #00257e;
+    border-radius: 10px;
+    width: 30%;
+}
+.dados-pessoais h2 {
+    margin-bottom: 20px;
+    color: #fef8f0;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fef8f0;
+}
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    background-color: #fef8f0;
+    color: #00257e;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #fef8f0;
+}
+.status-pedidos div {
+    background-color: #fef8f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #00257e;
+}
+h3 {
+    color: #fef8f0;
+}
+.lista-desejos img, .vistos-recentemente img {
+    width: 124px;
+    height: 214px;
+    margin-right: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #00257e;
+    color: white;
+}
+.opcoes form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

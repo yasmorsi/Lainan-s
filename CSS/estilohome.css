@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/Bg.png);
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(../imagens/Bg.png);
+    color: #006eee;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color:#006ee1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+main.palavras {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url(../imagens/Bg.png);
+}
+
+main.palavras .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.palavras .image-container img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+main.palavras .text-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+main.palavras .text-container h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 78px;
+    color: #006ee1;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+main.palavras .text-container h1 span {
+    font-size: 90px;
+    font-weight: bold;
+    display: block;
+}
+
+main.palavras .text-container button {
+    background-color: #006ee1;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+main.palavras .text-container button:hover {
+    background-color: #014ba7;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

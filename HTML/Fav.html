@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos - Livros</title>
+    <link rel="stylesheet" href="../CSS/Fav.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <img src="../imagens/lai.png" alt="Logo Lainan">
+            <p>Lainan's & Co - Since 2024</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="CategoriasR.html">Categorias</a></li>
+                <li><a href="Lançamentos.html">Lançamentos</a></li>
+                <li><a href="Liquidação.html">Liquidação</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="perfil.html">👤</a>
+            <a href="Fav.html">💙</a>
+            <a href="Carrinho.html">🛒</a>
+        </div>
+    </header>
+    <main>
+        <h2>Favoritos</h2>
+       
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="book">
+                    <img src="../imagens/f6.jpg" alt="Garota Exemplar">
+                    <h3>JOGOS VORAZES</h3>
+                    <h7>suzanne collins</h7>
+                    <div class="favorite">
+                        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="../imagens/leituradv.jpeg" alt="Madame Bovary">
+                    <h3>LEITURA DE VERÃO</h3>
+                    <h7>emily henry</h7>
+                    <div class="favorite">
+                        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="../imagens/eeemc.jpg" alt="O Evangelho Segundo Espiritismo">
+                    <h3>EU E ESSE MEU CORAÇÃO</h3>
+                    <h7>c. c. hunter</h7>
+                    <div class="favorite">
+                        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="../imagens/a baba.webp" alt="A Empregada">
+                    <h3>A BABÁ</h3>
+                    <h7>lana fergunson</h7>
+                    <div class="favorite">
+                        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="../imagens/i4.jpg" alt="Manual de Assassinato para Boas Garotas">
+                    <h3>TRONO DE VIDRO</h3>
+                    <h7>sarah j. mass</h7>
+                    <div class="favorite">
+                        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="../imagens/acéde.jpg" alt="Rita Lee - Uma Biografia">
+                    <h3>A CULPA É DAS ESTRELAS</h3>
+                    <h7>john green</h7>
+                    <div class="favorite">
+                        <span class="heart" onclick="toggleFavorite(this)">♡</span>
+                    </div>
+                </div>
+            </div>
+            <button class="nav-btn next-btn">❯</button>
+        </div>
+    </main>
+    <script src="../JAVA/fav.js"></script>
+</body>
+</html>

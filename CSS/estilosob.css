@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/Bg.png);
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(../imagens/Bg.png);
+    color: #006eee;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color:#006ee1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nossa-missao {
+    display: flex;
+    padding: 20px;
+}
+
+.nossa-missao .content {
+    width: 60%;
+    padding: 20px;
+}
+
+.nossa-missao .content h1 {
+    font-size: 48px;
+    color: #002f87;
+    margin-bottom: 20px;
+}
+
+.nossa-missao .content h1 span {
+    font-weight: bold;
+    display: block;
+}
+
+.nossa-missao .statements p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.nossa-missao .statements p strong {
+    font-weight: bold;
+}
+
+.nossa-missao .image {
+    width: 40%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.nossa-missao .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-image: url(../imagens/Bg.png);
+    color: black;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
